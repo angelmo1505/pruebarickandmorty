@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rick and Morty</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ps-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">Characters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="locations" >Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="episodes" >Episodes</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary px-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+            <i class="bi bi-text-left"></i> 
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Sidebar -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Rick and Morty</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="" class="nav-link active" >
+            Characters
+          </a>
+        </li>
+        <li>
+          <a href="locations" class="nav-link link-dark" aria-current="page">
+            Locations
+          </a>
+        </li>
+        <li>
+          <a href="episodes" class="nav-link link-dark">
+            Episodes
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div> 
